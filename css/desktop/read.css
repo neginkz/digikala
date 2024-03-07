@@ -1,0 +1,28 @@
+
+.read{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.read .name{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.read .read__center .swiper-wrapper .swiper-slide{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px rgb(234, 234, 234) solid;
+  height: 280px;
+  border-radius: 10px;
+}
+.read  img{
+  width: inherit;
+  height: 200px;
+  background-size: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}

@@ -1,0 +1,18 @@
+.gold{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.gold .gold__center{
+    width: 90%;
+    height: 167px;
+    display: block;
+    margin: auto;
+}
+.gold .gold__center img {
+    width: 1336px;
+    height: inherit;
+    border-radius: 16px;
+  }
+  

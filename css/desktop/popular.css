@@ -1,0 +1,31 @@
+.popular {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+  }
+  .popular .popular__center{
+    width: 90%;
+    height: 201px;
+    display: block;
+    margin: auto;
+  }
+  .popular .name{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+  }
+   
+  .popular.popular__center .first__popular div{
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+}
+.popular .popular__center .first__popular  img{
+    outline: unset;
+    width: 110px;
+    height: 110px;
+    margin-bottom: 10px;
+}

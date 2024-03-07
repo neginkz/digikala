@@ -1,0 +1,37 @@
+.container_digiclub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(76.02deg, rgb(53, 166, 200) 33.32%, rgb(0, 114, 149) 71.55%), radial-gradient(21.29% 87.33% at 50% 50.67%, rgb(124, 242, 246) 0px, rgb(53, 166, 200) 100%);
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.container_digiclub .digiclub_right img{
+    width: 300px;
+    height: 60px;
+    background-size: cover;
+    padding-top: 3px;
+}
+
+.container_digiclub .digiclub_left img{
+    width: 300px;
+    height: 60px;
+    background-size: cover;
+    padding-top: 3px;
+}
+
+.container_digiclub .digiclub_left img:first-of-type{
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+
+.container_digiclub .digiclub_left img:last-of-type{
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+}

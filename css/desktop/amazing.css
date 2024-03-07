@@ -1,0 +1,111 @@
+.amazing{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.amazing .amazing__center{
+    width: 80%;
+    height: inherit;
+    background-color: #ef394e;
+    border-radius: 20px;
+    padding: 20px 0;
+    border-left: 2px solid #ef394e;
+}
+.amazing .amazing__center .first__amazing{
+    background-color: #ef394e;
+}
+.amazing .amazing__center .first__amazing div{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+
+}
+.amazing .amazing__center .first__amazing div> svg{
+    width: 92px;
+    height: 74px;
+    margin-bottom: 15px;
+    
+}
+.amazing .amazing__center .first__amazing div img{
+    outline: unset;
+    width: 145px;
+    height: 115px;
+    margin-bottom: 10px;
+
+}
+.amazing .amazing__center .first__amazing div a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    font-family: var(--font-family);
+    font-size: 13px;
+}
+.amazing .amazing__center .first__amazing div a svg g{
+    fill: whitesmoke;
+}
+.item__amazing .item{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap !important;
+    padding: 10px;
+}
+.item__amazing .item .item__amazing_top{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.item__amazing .item .item__amazing_center{
+    display: block;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+    background-color: unset;
+    margin-bottom: 10px;
+}
+.item__amazing .item .item__amazing_center h5{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    font-size: 20px;
+    font-family: var(--font-family-number);
+    font-weight: bolder;
+
+}
+.item__amazing .item .item__amazing_center span{
+    font-family: var(--font-family-number);
+    font-size: 13px;
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+.item__amazing .item .item__amazing_bottom{
+    display: block;
+    width: 100%;
+    height: auto;
+    font-family: var(--font-family-number);
+    text-align: left;
+    padding-left: 10px;
+    font-size: 13px;
+    opacity: 0.9;
+    text-decoration: line-through;
+}
+.item__amazing .item .item__amazing_top img{
+    all: unset;
+    width: 150px;
+    height: 150px;
+}
+.item__amazing >div div:nth-of-type(2){
+    background-color: red;
+}
+
+
+
+
